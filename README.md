@@ -157,12 +157,7 @@ sudo ss -tulpn | grep $(grep SERVICE_PORT .env | cut -d'=' -f2)
 
 ## Troubleshooting
 
-⚠️ **KNOWN ISSUE (September 2025)**: 
-The 0G mainnet contract has issues preventing node registration and delegation. 
-Error: "claimData" function not working properly. 
-The 0G team is aware and working on a fix.
 
-**500 Error**: This is normal due to contract issues. Node is running correctly but cannot register.
 
 **Private Key Security Warning**:
 - Systemd logs may show your private key in error messages
